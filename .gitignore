@@ -1,7 +1,7 @@
 *.iml
 
 ## Directory-based project format:
-.idea/
+AndroidApp/.idea/
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:
@@ -30,10 +30,10 @@
 ## Plugin-specific files:
 
 # IntelliJ
-/out/
+/AndroidApp/out/
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
+/AndroidApp/.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
