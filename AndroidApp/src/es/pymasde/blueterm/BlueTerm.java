@@ -53,6 +53,7 @@ import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
+// try to add via Intellij...
 
 public class BlueTerm extends Activity {
     // Intent request codes
