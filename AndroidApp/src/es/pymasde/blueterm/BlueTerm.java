@@ -59,7 +59,7 @@ public class BlueTerm extends Activity {
     // Intent request codes
     private static final int REQUEST_CONNECT_DEVICE = 1;
     private static final int REQUEST_ENABLE_BT = 2;
-    
+
 	public static final int ORIENTATION_SENSOR    = 0;
 	public static final int ORIENTATION_PORTRAIT  = 1;
 	public static final int ORIENTATION_LANDSCAPE = 2;
@@ -229,7 +229,7 @@ public class BlueTerm extends Activity {
     }
 
     public void auto(View view) {
-        view.startAnimation(AnimationUtils.loadAnimation(this, R.anim.rotate));
+        view.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fade_in));
         byte[] b = {97};
         mSerialService.write(b);
     }

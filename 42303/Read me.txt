@@ -1,0 +1,18 @@
+
+Files Declare :
+
+First please choose the Simplified Chinese¡¢traditional Chinese or English according to your requirement.
+
+¡°Usc_driver.Exe¡±is a computer driver. Support system XP¡¢Windows 7 and Windows 8. 
+
+¡°Rios_usc.Exe¡± is a computer control software.
+
+¡°SerialAssistant.Exe¡± is a serial debugging assistant.Generally less use.
+
+¡°Usc.Apk¡± is a android mobile phone software.
+
+¡°Arduino.Ino¡± is a example for Arduino to control the ¡°steering gear control panel¡±.
+
+¡°51.C¡± is a example for 51 MCU to control the ¡°steering gear control panel¡±.
+
+¡°USC Vedio¡± is a vedio to display how to use this motor driver.

@@ -125,18 +125,17 @@
                          android:background="#ff080808"
                     />
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
-                      android:layout_height="wrap_content" android:weightSum="1"
-                      android:layout_gravity="center_horizontal" android:gravity="center">
-            <ImageButton android:layout_width="wrap_content"
-                         android:layout_height="wrap_content"
-                         android:id="@+id/auto"
 
-                         android:onClick="auto"
-                         android:src="@drawable/a"
-                         android:background="#ff080808"
-                    />
-        </LinearLayout>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <SurfaceView
+                android:id="@+id/surfaceView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
     </LinearLayout>
 
 </LinearLayout>
